@@ -18,3 +18,11 @@ Runtime can be node or java.
 ### process.argv
 
 The first element of the process.argv array will always be a file system path pointing to the node executable. The second element is the name of the JavaScript file that is being executed. And the third element is the first argument that was actually passed by the user.
+
+```
+'use strict';
+
+for (let j = 0; j < process.argv.length; j++) {
+    console.log(j + ' -> ' + (process.argv[j]));
+}
+```
