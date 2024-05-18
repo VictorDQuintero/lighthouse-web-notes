@@ -4,7 +4,7 @@ console.assert(1 === 1); // => nothing happens because true
 
 console.assert(1 === 1.1); // => prints out "Assertion failed" to the terminal
 
-We could use this to test out a simple function.
+//We could use this to test out a simple function.
 
 // FUNCTION IMPLEMENTATION
 const sum = function (a, b) {
